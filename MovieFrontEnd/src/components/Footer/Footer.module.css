@@ -1,0 +1,37 @@
+.footerSection{
+    height: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.footerSection>div:nth-child(2){
+    background-color: white;
+    color: black;
+}
+
+.footerLeft{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footerRight{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.footerRight>div>img{
+    height: 30px;
+    margin: 10px;
+}
+
+.intro{
+    padding: 30px;
+    font-size: small;
+}

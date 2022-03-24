@@ -1,0 +1,17 @@
+.navBar{
+    height:60px;
+
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: 99;
+}
+
+.navBar>div>a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+}

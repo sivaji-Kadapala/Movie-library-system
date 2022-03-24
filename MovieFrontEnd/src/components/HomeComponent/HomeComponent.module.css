@@ -1,0 +1,22 @@
+.homeSec>div>img{
+    height: 500px;
+}
+
+
+.leftPane{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+.rightPane{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
